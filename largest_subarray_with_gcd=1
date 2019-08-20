@@ -1,0 +1,19 @@
+problem statement:find the largest subarray such that gcd of that subarray is equall to 1.
+subarray of gcd means largest factor which is common to all elements of the subarray.
+
+
+
+input format:
+n:first line contains an integer which denotes the length of a given array, and next n line contains elements of given array.
+a[i] is  element in array at index i.
+
+output:
+print length of largest subarray such that gcd of subarray is equall to 1.
+
+constarint:
+
+2<=n<=1000000
+0<=a[i]<1=0^9
+
+
+solution:
