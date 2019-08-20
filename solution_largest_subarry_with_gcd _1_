@@ -1,0 +1,45 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int n;
+   cin>>n;
+   vector<int> a(n);
+   for(int i=0;i<n;i++)
+      cin>>a[i];
+    int ans=a[0];
+    for(int i=1;i<n;i++)
+       ans=__gcd(ans,a[i]);
+     if(ans==1)
+       cout<<n<<endl;
+     else 
+       cout<<-1<<endl;
+}
+
+//Explanation:
+gcd defination:
+largest factor which divides all elements of subarray. so if there exist at least two elements of that subarray such that 
+largest common factor of those two elements is 1 then then we can conclude that largest common_factoe for subarray is also 1.
+and  maximum length of subarray is equall to length of array. if there is not exist any two elements such that largest common_factor
+is equall to 1 then gcd of that subarray never equall to 1.
+
+
+//mathematically.
+
+let's take array elemnets are a,b,c;
+where a<b<c
+
+if b=x*a. ...............1)    //where x is integer
+
+if c=y*b . ...............2)   // where y is integer.
+put value of b in eqn 2.
+so, c=y*(x*a)
+ or c=z*a ---------------------3) /where z=x*y which is integer.
+ 
+from equation 3 we can conclude  if there is no two element exist in subarry such that largest  common_factor is 1 
+then gcd of that subarry will never be one.
+
+
+
+
+
