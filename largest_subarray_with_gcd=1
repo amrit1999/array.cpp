@@ -1,7 +1,7 @@
 problem statement:find the largest subarray such that gcd of that subarray is equall to 1.
 subarray of gcd means largest factor which is common to all elements of the subarray.
 
-
+refer:https://www.codechef.com/problems/SUBGCD
 
 input format:
 n:first line contains an integer which denotes the length of a given array, and next n line contains elements of given array.
