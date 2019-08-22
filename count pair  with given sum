@@ -1,0 +1,17 @@
+constarints:
+0<=n<=10^5
+0<=a[i]<=10^5
+
+
+method 1: using hashing.
+suppose you count numbers(x,y) such that x+y=sum;
+if(x!=y)
+pairs=x*y;
+else if(x==y)
+pairs=x*(x-1)/2;
+
+problem 2:
+count pairs with given xor.
+
+problem3:
+count  pairs with given oddxor.
