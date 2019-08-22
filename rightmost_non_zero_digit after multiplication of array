@@ -1,0 +1,7 @@
+constaraints:
+0<=n<=10^5
+0<=a[i]<=10^15
+
+just count total number 2's and 5's which divides 
+and totallast_zero= min(count2's,count'5)
+
