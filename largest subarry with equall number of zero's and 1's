@@ -1,1 +1,6 @@
-
+1)maximum length of substring with equall number of zero's and one's in binary string.
+2)count subarrays with equall number of 1's and 2's in given array.
+0<=a[i]<=10^5;
+https://www.geeksforgeeks.org/count-subarrays-equal-number-occurrences-two-given-elements/
+3)count subarray such that xor of all elemnts is zero.
+4)
