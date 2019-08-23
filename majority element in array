@@ -1,0 +1,26 @@
+defination:
+majority element: majority element in an array which occurs more than n/2.
+{
+majority_index=0,count=1;
+for(int i=1;i<size-1;i++)
+{
+    if(a[majority_index]==a[i])
+    {
+       count++;
+    }
+    else
+    {  
+      count--;
+    }
+    if(count==0)
+    {
+       majority_index=i;
+       count=1;
+    }
+}
+
+return a[majority_index];
+}
+
+
+
