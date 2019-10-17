@@ -15,3 +15,5 @@ count pairs with given xor.
 
 problem3:
 count  pairs with given oddxor.
+problem4:
+find maximum xor pair in a given array. 
